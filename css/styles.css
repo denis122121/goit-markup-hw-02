@@ -1,0 +1,116 @@
+:root {
+    --global-font:'Roboto',sans-serif;
+    --second-fond:'Realway',sans-serif;
+    --global-text-color:#434455;
+    --second-text-color:#2E2F42;
+    --background-color-white:#fff;
+    --background-color-grey:#F4F4FD;
+    --global-color-blue:#4D5AE5;
+    --active-button:#404BBF;
+}
+body {
+    font-family: var(--global-font);
+    background-color: var(--background-color-white);
+    color : var(--global-text-color);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+}
+
+.logo {
+    font-family: var(--second-fond);
+    color:var(--global-color-blue);
+    font-size : 18px;
+    line-height : 1.16;
+    letter-spacing : 0.54px;
+}
+
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none
+}
+
+.menu-link
+{
+font-family: var(--second-text-color);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.32px;
+color: var(--second-text-color);
+
+}
+.menu-link:hover,
+.menu-link:focus{
+color: var(--active-button);
+}
+.address{
+        font-size: 16px;
+        font-style: normal;
+        line-height: 1.6;
+        letter-spacing: 0.32px;
+        
+    
+}
+.address-link{
+    color: var(--global-text-color);
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: var(--active-button);
+}
+
+.studio {
+    color: var(--second-text-color)
+}
+
+.hero {
+    background-color: var(--second-text-color);
+}
+
+.hero-button {
+    font-family: inherit;
+background-color: var(--global-color-blue);
+color: var(--background-color-white);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.64px;
+font-weight: 500;
+}
+.hero-button:hover,
+.hero-button:focus
+{
+    background-color: var(--active-button) ;
+}
+.hero-text {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    color: #FFF
+}
+
+
+.logo-footer{
+    color: var(--background-color-grey);
+
+}
+.footer{
+
+background-color: var(--second-text-color);
+}
+
+.footer-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--background-color-grey);
+}
+
+
+
+
+
+
+
