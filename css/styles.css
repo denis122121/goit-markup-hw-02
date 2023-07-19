@@ -12,9 +12,7 @@ body {
     font-family: var(--global-font);
     background-color: var(--background-color-white);
     color : var(--global-text-color);
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
+    
 }
 
 .logo {
