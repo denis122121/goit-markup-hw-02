@@ -20,7 +20,7 @@ body {
     color:var(--global-color-blue);
     font-size : 18px;
     line-height : 1.17;
-    letter-spacing : 0.54px;
+    letter-spacing: 0.03em;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -38,7 +38,7 @@ font-weight: 500;
 font-family: var(--second-text-color);
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 color: var(--second-text-color);
 
 }
@@ -57,7 +57,7 @@ color: var(--active-button);
     font-size: 16px;
     color: var(--global-text-color);
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .address-link:hover,
