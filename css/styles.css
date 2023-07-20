@@ -104,7 +104,7 @@ cursor: pointer;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color:var(--second-text-color);
 }
 
 .title{
@@ -121,6 +121,12 @@ cursor: pointer;
         letter-spacing: 0.02em;
 }
 
+.section-employee{
+    background-color: #F4F4FD;
+}
+.employee-item {
+    background-color: #FFFFFF;
+}
 
 .logo-footer{
     color: var(--background-color-grey);
