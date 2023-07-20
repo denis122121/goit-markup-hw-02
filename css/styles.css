@@ -39,7 +39,7 @@ font-family: var(--second-text-color);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.32px;
-color: var(--global-text-color);
+color: var(--second-text-color);
 
 }
 .menu-link:hover,
@@ -64,6 +64,7 @@ color: var(--active-button);
 }
 
 .studio {
+    font-family: var(--second-fond);
     color: var(--second-text-color)
 }
 
