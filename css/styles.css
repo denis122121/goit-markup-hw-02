@@ -80,7 +80,10 @@ color: var(--active-button);
 .adress-link:focus{
     color: var(--active-button);
 }
-
+.body-item{
+    font-family: var(--global-font);
+    color: var(--global-text-color);
+}
 .studio {
     font-family: var(--second-fond);
     color: var(--second-text-color);
