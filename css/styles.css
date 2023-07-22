@@ -172,15 +172,36 @@ background-color: var(--second-text-color);
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: var(--global-text-color);
 }
 
 
 
 
+.hero-button-portf{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color:var(--global-color-blue);
+        background-color: var(--background-color-grey);
+}
+.hero-button-portf:hover,
+.hero-button-portf:focus{
+    color:var(--background-color-white);
+        background-color:var(--active-button);
+        cursor: pointer;
+}
 
 
-
-
+.portfolio-line{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+}
 
 
 
