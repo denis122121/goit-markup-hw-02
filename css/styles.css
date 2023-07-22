@@ -66,10 +66,11 @@ color: var(--active-button);
     
 }
 .address-link{
-    font-size: 16px;
-    color: var(--global-text-color);
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+   
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:var(--global-text-color);
+        font-family: var(--global-font);
 }
 
 .address-link:hover,
@@ -134,7 +135,7 @@ cursor: pointer;
 }
 
 .section-employee{
-    background-color: #F4F4FD;
+    background-color:var(--background-color-grey);
 }
 .employee-item {
     background-color: #FFFFFF;
@@ -155,8 +156,18 @@ background-color: var(--second-text-color);
     letter-spacing: 0.32px;
     color: var(--background-color-grey);
 }
-
-
+.title{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color:var(--second-text-color);
+        letter-spacing: 0.02em;
+}
+.subtitle{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
 
 
 
