@@ -16,13 +16,14 @@ body {
 }
 
 .logo {
-    font-family: var(--second-fond);
-    color:var(--global-color-blue);
-    font-size : 18px;
-    line-height : 1.17;
-    letter-spacing: 0.03em;
-    font-weight: 800;
-    text-transform: uppercase;
+        text-decoration: none;
+        font-family: var(--second-fond);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:var(--global-color-blue);
 }
 .nav-item {
     font-weight: 500;
@@ -34,7 +35,9 @@ body {
 
 .nav-item:hover,
 .nav-item:focus {
-    color:var(--active-button);
+    color:var(--background-color-white);
+    background-color: var(--active-button);
+    cursor: pointer;
 }
 .link {
     text-decoration: none;
@@ -80,7 +83,8 @@ color: var(--active-button);
 
 .studio {
     font-family: var(--second-fond);
-    color: var(--second-text-color)
+    color: var(--second-text-color);
+   
 }
 
 .hero {
@@ -89,20 +93,18 @@ color: var(--active-button);
 }
 
 .hero-button {
-font-family: inherit;
-background-color: var(--global-color-blue);
-color: var(--background-color-white);
+font-family: var(--global-font);
 font-size: 16px;
 line-height: 1.5;
-letter-spacing: 0.64px;
+letter-spacing: 0.04em;
 font-weight: 500;
-text-align: center;
-cursor: pointer;
+color: var(--global-color-blue);
+background-color: var(--background-color-grey);
 }
 .hero-button:hover,
 .hero-button:focus
 {
-    background-color: var(--active-button) ;
+    background-color: var(--background-color-white) ;
 }
 .hero-text {
     font-size: 56px;
