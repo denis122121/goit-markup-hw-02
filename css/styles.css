@@ -65,7 +65,7 @@ color: var(--active-button);
         
     
 }
-.address-link{
+.adress-link{
    
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -73,8 +73,8 @@ color: var(--active-button);
         font-family: var(--global-font);
 }
 
-.address-link:hover,
-.address-link:focus{
+.adress-link:hover,
+.adress-link:focus{
     color: var(--active-button);
 }
 
