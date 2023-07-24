@@ -1,27 +1,17 @@
 :root {
     --text-btn-color: #4d5ae5;
-    --bcg-btn: #f4f4fd;
-    --text: #434455;
-    --background: #ffffff;
+    --bcg-btn: #F4F4FD;
 }
 
 body {
-    text-decoration: none;
     font-family: "Roboto", sans-serif;
-    background-color: var(--background);
-    color: var(--text);
-}
-
-button {
-    cursor: pointer;
-    border: none;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 /* main-page */
-
 .logo {
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway" sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -33,11 +23,13 @@ button {
 .link {
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+
+
 }
 
 .logo-span-header {
     color: #2e2f42;
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway" sans-serif;
 }
 
 .nav-items {
@@ -55,6 +47,8 @@ button {
 
 .address {
     font-style: normal;
+
+
 }
 
 .list {
@@ -67,6 +61,8 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
     font-family: "Roboto", sans-serif;
+
+
 }
 
 .address-info:hover,
@@ -87,18 +83,20 @@ button {
 }
 
 .btn-banner {
-    background-color: #4d5ae5;
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .btn-banner:hover,
 .btn-banner:focus {
-    background-color: #404bbf;
+    background-color: #404BBF;
+
 }
 
 .title {
@@ -106,7 +104,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em
 }
 
 .subtitle {
@@ -122,10 +120,11 @@ button {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+
 }
 
 .section-employee {
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
 }
 
 .footer {
@@ -134,12 +133,12 @@ button {
 
 .footer-text {
     line-height: 1.5;
-    color: #f4f4fd;
+    color: #F4F4FD;
     letter-spacing: 0.02em;
 }
 
 .item-employee {
-    background-color: #ffffff;
+    background-color: #FFFFFF
 }
 
 .footer .logo-span-footer {
@@ -151,6 +150,7 @@ button {
     font-family: "Raleway", sans-serif;
 }
 
+
 /* portfolio */
 .portfolio-btn {
     font-family: "Roboto", sans-serif;
@@ -159,13 +159,14 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #4d5ae5;
-    background-color: #f4f4fd;
+    background-color: #F4F4FD;
+
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    color: #ffffff;
-    background-color: #404bbf;
+    color: #FFFFFF;
+    background-color: #404BBF;
     cursor: pointer;
 }
 
@@ -175,6 +176,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
 }
 
 .portfolio-subtitle {
@@ -182,4 +184,5 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 }
