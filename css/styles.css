@@ -96,19 +96,18 @@ color: var(--active-button);
 }
 
 .hero-button {
-font-family: var(--global-font);
-font-size: 16px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-font-weight: 800;
-color: var(--global-color-blue);
-background-color: var(--background-color-grey);
-text-transform: uppercase;
+background-color:var(--global-color-blue);
+    font-family: var(--global-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--background-color-white);
 }
 .hero-button:hover,
 .hero-button:focus
 {
-    background-color: var(--background-color-white) ;
+    background-color: var(--active-button) ;
 }
 .hero-text {
     font-size: 56px;
