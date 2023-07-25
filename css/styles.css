@@ -103,6 +103,7 @@ background-color:var(--global-color-blue);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:var(--background-color-white);
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus
@@ -205,15 +206,16 @@ background-color: var(--second-text-color);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+.portfolio-body{
+font-family: "Roboto", sans-serif;
+color:var(--global-text-color)
+}
+.logo-item{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var();
+}
