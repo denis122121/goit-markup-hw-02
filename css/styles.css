@@ -10,7 +10,7 @@
 }
 body {
     font-family: var(--global-font);
-    /* background-color: var(--background-color-white); */
+    background-color: var(--background-color-white);
     color : var(--global-text-color);
     
 }
