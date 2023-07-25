@@ -9,7 +9,7 @@
     --active-button:#404BBF;
 }
 body {
-    font-family: var(--global-font);
+    font-family: var(--second-fond);
     background-color: var(--background-color-white);
     color : var(--global-text-color);
     
