@@ -207,7 +207,7 @@ background-color: var(--second-text-color);
 
 
 .portfolio-body{
-font-family: "Roboto", sans-serif;
+font-family: var(--global-font);
 color:var(--global-text-color)
 }
 .logo-item{
